@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="icon" href="data:image/png;base64,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" type="image/png">
+  <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz</h1>
+    <div id="progress"></div>
+    <div id="quiz"></div>
+    <div id="result" class="result"></div>
+    <button id="submit" class="button">Submit</button>
+    <button id="retry" class="button hide">Retry</button>
+    <button id="showAnswer" class="button hide">Show Answer</button>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
